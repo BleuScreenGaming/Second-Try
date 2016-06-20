@@ -50,7 +50,7 @@ player_direction = 'front';
           <argument>
             <kind>1</kind>
             <string>///Movement
-ms = 6
+ms = 40
 //up right
 if (keyboard_check(ord("W")) &amp;&amp; keyboard_check(ord("D")) &amp;&amp; keyboard_check(ord("A")) == false) {
 x+=ms*sqrt(2)/2;
